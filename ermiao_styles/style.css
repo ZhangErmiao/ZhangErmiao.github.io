@@ -1,4 +1,10 @@
 html{
   font-size: 10px;
   font-family: 'Open Sans',sans-serif;
+  background-color:gray;
+  margin:0;
+  wedding:10px;
+}
+#header{
+  color:yellow;
 }

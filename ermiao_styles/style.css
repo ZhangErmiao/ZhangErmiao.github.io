@@ -1,25 +1,67 @@
 body{
-  font-size: 10px;
   font-family: 'Open Sans',sans-serif;
   margin:0;
   padding:0;
 }
 #header{
-  color:white;
   background-color: #24292e;
-  height:50px;
-  padding:15px 10px;
+  height:45px;
+  padding:20px 10px;
 }
 #header img{
-  width:40px;
-  height:40px;
+  width:45px;
+  height:45px;
   vertical-align:middle;
   padding:0 6px;
+  border-radius:50%; //圆角
+}
+#header input{
+  width:350px;
+  height:32px;
+  padding:0;
+  margin: 0 6px;
+  border: none;
+  vertical-align:middle;
+  border-radius:4px;
+  color:gray;
+  font-size:15px; /*圆角*/
+  outline: none;    /*消除默认点击蓝色边框效果*/
+  background-color:#0909a0;
 }
 #header button{
-  width:40px;
-  height:40px;
+  width:45px;
+  height:45px;
   vertical-align:middle;
+  position:absolute;
+  left:6px;
+  top:20px;
+  border-radius:8px; /*圆角*/
+  outline: none;    /*消除默认点击蓝色边框效果*/
+}
+#header .menu{
+  margin:0 15%;
+  /*margin:auto;*/
+  width:70%;
+  height:100%;
+  /*background-color: red;*/
+  display:inline-block;
+}
+#header a{
+  text-decoration:none;
+  margin:0 7px;
+}
+#header a:link,a:visited{color:white;}
+#header a:hover,a:active{color:gray;}
 
+
+
+.content{
+  background-color:red;
+  width:70%;
+  margin:auto;
+}
+#content_left{
+  margin: 40%;
+  background-color: red;
 
 }

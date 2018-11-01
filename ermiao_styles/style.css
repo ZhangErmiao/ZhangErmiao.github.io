@@ -6,8 +6,8 @@ body{
 }
 #header{
   background-color: #24292e;
-  height:38px;
-  padding:20px 10px;
+  height:40px;
+  padding:18px 10px;
 }
 #header img{
   width:45px;
@@ -35,7 +35,7 @@ body{
   vertical-align:middle;
   position:absolute;
   left:6px;
-  top:20px;
+  top:15px;
   border-radius:8px; /*圆角*/
   outline: none;    /*消除默认点击蓝色边框效果*/
 }

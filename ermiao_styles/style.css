@@ -2,10 +2,11 @@ body{
   font-family: 'Open Sans',sans-serif;
   margin:0;
   padding:0;
+  font-size:16px;
 }
 #header{
   background-color: #24292e;
-  height:45px;
+  height:38px;
   padding:20px 10px;
 }
 #header img{
@@ -23,10 +24,10 @@ body{
   border: none;
   vertical-align:middle;
   border-radius:4px;
-  color:gray;
-  font-size:15px; /*圆角*/
+  color:darkgrey;
+ /*圆角*/
   outline: none;    /*消除默认点击蓝色边框效果*/
-  background-color:#0909a0;
+  background-color:dimgrey;
 }
 #header button{
   width:45px;
@@ -38,7 +39,7 @@ body{
   border-radius:8px; /*圆角*/
   outline: none;    /*消除默认点击蓝色边框效果*/
 }
-#header .menu{
+.menu{
   margin:0 15%;
   /*margin:auto;*/
   width:70%;
@@ -50,18 +51,80 @@ body{
   text-decoration:none;
   margin:0 7px;
 }
-#header a:link,a:visited{color:white;}
-#header a:hover,a:active{color:gray;}
+#header a:link,#header a:visited{color:white;}
+#header a:hover,#header a:active{color:gray;}
 
+.directory{
+  width:100%;
+  height:85px;
+  background-color:#fafbfc;
+  border-bottom: 1px solid #e1e4e8;
+}
+.total_menu{
+  height:50px;
+  line-height: 50px;
+  color:#0366d6;
+}
+.menu_block{
+  /* margin-top:50px; */
+  /* background-color: gray; */
+  width:75px;
+  height:35px;
+  text-align:center;
+  line-height: 35px;
+  display: inline-block;
+}
+.menu_block_border{
+  border: 1px solid  #e1e4e8;
+  border-top:2.5px solid red;
+  border-bottom: none;
+}
+
+.directory a{
+  text-decoration:none;
+
+}
+.directory a:link,.directory a:visited{color:#444343;}
+.directory a:hover,.directory a:active{color:black;}
 
 
 .content{
-  background-color:red;
-  width:70%;
-  margin:auto;
+  background-color:#fafbfc;
+  width:68%;
+  border: 1px solid #e1e4e8;
+  border-radius:3px; /*圆角*/
+  margin:3px auto;
+  padding:0 2%;
 }
-#content_left{
-  margin: 40%;
-  background-color: red;
+.content .title{
+  margin: 0 auto;
+  border-bottom:1px solid #e1e4e8;
+}
+.title p{
+  font-size: 13px;
+  color:gray;
+}
 
+#content_left{
+  background-color: yellow;
+  width:25%;
+  display:inline-block;
+}
+#content_left .menu{
+  width:100%;
+  height:100px;
+  border: 1px solid gray;
+}
+#content_left a{
+  color:gray;
+}
+#content_right{
+  background-color: gray;
+  display:inline-block;
+  width:75%;
+}
+#content_right  .menu{
+  width:100%;
+  height:100px;
+  border: 1px solid gray;
 }

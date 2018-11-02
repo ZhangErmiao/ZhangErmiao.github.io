@@ -81,9 +81,11 @@ body{
   border-bottom: none;
 }
 
-.directory a{
+/* .directory a{
   text-decoration:none;
-
+} */
+a{
+  text-decoration:none;
 }
 .directory a:link,.directory a:visited{color:#444343;}
 .directory a:hover,.directory a:active{color:black;}
@@ -128,4 +130,41 @@ body{
   width:100%;
   height:100px;
   border: 1px solid gray;
+}
+
+#hidden_tree{
+  position:absolute;
+  left:0px;
+  top:0px;
+  padding:2%;
+  width:8%;
+  height:100%;
+  background-color: white;
+  text-align: center;
+  /* visibility: visible; */
+  display:none; /*隐藏侧边栏*/
+}
+
+#hidden_tree img{
+ width:87px;
+ height:87px;
+ border-radius:50%; //圆角
+}
+#hidden_tree .box{
+  padding:10px;
+  height:20px;
+  display:block;
+  text-align:justify;
+}
+#hidden_tree a{
+  color:black;
+}
+#hidden_tree button{
+  position:absolute;
+  right: 2px;
+  top:2px;
+  width:25px;
+  height:25px;
+  border-radius:20%; /*圆角 */
+  outline: none;    /*消除默认点击蓝色边框效果*/
 }

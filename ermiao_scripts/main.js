@@ -11,14 +11,18 @@ function close_hidden_tree(){
 my_right_button.addEventListener('click',open_hidden_tree, false);
 my_left_button.addEventListener('click',close_hidden_tree, false);
 
-// var change = function(names){
-//   var dom = document.querySelector("li[name=names]");
-//   dom.style.display = "block";
-//   if (names !== "概述"){
-//     var dom0 = document.querySelector("li[name='概述']");
-//     dom0.style.display = "none";
-//   }
-//
-//
-// }
-// document.querySelector("a[name='html']").onclick= change('html')
+
+var change_html = function(){
+  var dom = document.querySelector("li[name='html']");
+  dom.style.display = "block";
+  var dom0 = document.querySelector("li[name='概述']");
+  dom0.style.display = "none";
+}
+var change_html = function(){
+  var dom = document.querySelector("li[name='html']");
+  dom.style.display = "block";
+  var dom0 = document.querySelector("li[name='概述']");
+  dom0.style.display = "none";
+}
+var html = document.querySelector("a[name='html']")
+html.addEventListener('click',change_html,false)

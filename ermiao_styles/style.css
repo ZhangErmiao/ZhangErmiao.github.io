@@ -40,6 +40,7 @@ body{
   text-align-last: justify;
   position: absolute;
   bottom: 0;
+
 }
 .header li{
   display: inline-block;
@@ -109,7 +110,7 @@ body{
 }
 .show-content{
   float: left;
-  width: 900px;
+  width: 75%;
   margin-right: 30px;
 }
 .show-menu{
@@ -139,7 +140,12 @@ body{
   background-color:#3b3b3b;
   color: white;
 }
-
+.show-content-item button:hover{
+  background-color:#131313;
+}
+.show-content-item button:active{
+  background-color:#131313;
+}
 .mark{
   text-align: center;
   width: 100px;
@@ -162,7 +168,14 @@ body{
   border-style:solid;
   border-color:transparent transparent white;
 }
+.conf{
 
+}
+.conf img{
+  width: 20px;
+  height: 20px;
+  vertical-align:middle;
+}
 
 .content li:not(:first-of-type){
   display: none;

@@ -18,8 +18,9 @@ var change_html = function(){
   var dom0 = document.querySelector("li[name='概述']");
   dom0.style.display = "none";
 }
-var change_html = function(){
-  var dom = document.querySelector("li[name='html']");
+var names='';
+var change_html = function(names){
+  var dom = document.querySelector("`li[name=${names}]`");
   dom.style.display = "block";
   var dom0 = document.querySelector("li[name='概述']");
   dom0.style.display = "none";

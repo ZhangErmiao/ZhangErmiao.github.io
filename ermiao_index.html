@@ -24,35 +24,93 @@
 
 
   <div class="content">
-    <div class="show-content">
-      <div class="show-content-item">
+    <div class="content-left">
+      <div class="content-left-item">
           <div class="mark">
             <p>JavaScript</p><div></div>
           </div>
           <button type="button" name="button">Read more</button>
           <h2>概述</h2>
           <div class="conf">
-              <img src="ermiao_images/日历.png" alt="">
+              <img src="ermiao_images/日历2.png" alt="conf-time">
               <span>2018年11月1日 15:59:32 </span>
-              <img src="ermiao_images/阅读.png" alt="">
+              &nbsp;
+              <img src="ermiao_images/阅读.png" alt="conf-read-number">
               <span> 阅读数:100 </span>
-
           </div>
-          <p>这是一个概述页，你可以点击上面的按钮。</p>
+          <div class="item-content">
+            <p>这是一个概述页，你可以点击上面的按钮。</p>
+            <ul>
+              <li>Recent articles</li>
+              <li>Recent articles</li>
+              <li><span>sss你真的会写单例模式吗</span></li>
+              <li><a>你真的会写单例模式吗</a></li>
+              <li><a>你真的会写单例模式吗</a></li>
+            </ul>
+          </div>
       </div>
 
-      <div class="show-content-item">
+      <div class="content-left-item">
           <div class="mark">
             <p>JavaScript</p><div></div>
           </div>
           <button type="button" name="button">Read more</button>
           <h2>概述</h2>
-          <p>2018年11月1日 15:59:32  阅读数:100</p>
-          <p>这是一个概述页，你可以点击上面的按钮。</p>
+          <div class="conf">
+              <img src="ermiao_images/日历2.png" alt="conf-time">
+              <span>2018年11月1日 15:59:32 </span>
+              &nbsp;
+              <img src="ermiao_images/阅读.png" alt="conf-read-number">
+              <span> 阅读数:100 </span>
+          </div>
+          <div class="item-content">
+            <p>1.绘图颜色设置
+  matplotlib绘图颜色可以自己设置也可以使用内置的样式，以下分别介绍了设置颜色的用法和设置内置样式的方法。
+  设置各种颜色的用法：
+  plt.figure(facecolor='mediumslateblue',edgecolor='black')  或plt.gcf().set_facecolor('green')    注：fugure中的facecolor 是背景色（边框外的）edgecolor是边框颜色
+  plt.axes(facecolor='blue') 或 plt.gca().patch.set_facecolor('blue')   (patch.alpha(0.5)设置的是透明度)   注：axes中的facecolor是画布的背景色（边框内的）
+  plt.rcParams['axes.facecolor']='red' 注：将matplotlib中的画布背景色（边框内）默认值改为红色
+  plt.rcParams['savefig.facecolor']='red'  注：画图出来的图像颜色不变，将matplotlib中保存后的背景色（边框外的）默认值改为红色
+  颜色传送门
+  </p>
+          </div>
+
       </div>
 
     </div>
-    <div class="show-menu">
+    <div class="content-right">
+      <div class="content-right-item inputer">
+          <input type="text" name="" value=""><img src="ermiao_images/放大镜1.png" alt="">
+      </div>
+      <div class="content-right-item recent">
+        <ul>
+          <div class="title"><img src="ermiao_images/recent1.png" alt="">
+        <span>Recent articles</span></div>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗</a></li>
+          <li><a>你真的会写单例模式吗你真的会写单例模式吗你真的会写单例模式吗</a></li>
+        </ul>
+      </div>
+
+      <div class="content-right-item login">
+          <div class="title"><img src="ermiao_images/登陆.png" alt="">
+        <span>Login and Signup</span></div>
+          <div class="buttoner">
+        <img class="avatar" src="ermiao_images/photo.jpg" alt="">
+        <div >
+
+        </div>
+          <button type="button" name="button">Log in</button>
+          <button type="button" name="button">Sign up</button>
+        </div>
+
+      </div>
 
     </div>
   </div>
@@ -60,7 +118,7 @@
 
 
   </div>
-  <div id="hidden_tree">
+  <!-- <div id="hidden_tree">
     <img src="ermiao_images/photo.jpg" alt="头像"/>
     <button type="button" name="left"></button>
     <a href="#" class="box"> @ 生活</a>
@@ -68,7 +126,7 @@
     <a href="#" class="box"> @ 思考</a>
     <a href="#" class="box"> @ 编程</a>
     <a href="#" class="box"> @ 爱好</a>
-  </div>
+  </div> -->
   <!-- <script src="ermiao_scripts/main.js"> -->
  <!-- </script>  -->
 </body>

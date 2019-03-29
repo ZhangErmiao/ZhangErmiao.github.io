@@ -1,0 +1,290 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration:none;
+}
+ul{
+  list-style: none;
+}
+button{
+  outline: none;
+}
+input{
+  outline: none;
+}
+body{
+    /* font-family: 'Open Sans',sans-serif; */
+  font-family: 'KaiTi' 'Arial','Microsoft YaHei','黑体','宋体',sans-serif;
+  font-size:15px;
+  background-color: #e6e6e6;
+  /* cursor: url('../ermiao_images/miao3.jpg'), default; */
+  /* 设置光标图像 */
+}
+/* --------------------------------------------------------------------------------*/
+.header ul{
+  background-color: #f4f2f2;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 30px;
+}
+.header li{
+  display: inline-block;
+  margin:0 50px;
+}
+
+.header img{
+  width: 100%;
+  height: 100%;
+/* filter:alpha(opacity=80);  /* for IE */
+ /*opacity:0.8; /* CSS3 standard
+  display: block;/* 去除间隙 */
+}
+
+
+.header .shadow{
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  bottom: 0;
+  background-color: #e1e4e8;
+  filter:alpha(opacity=30);
+  /* CSS3 standard */
+  opacity:0.3;
+}
+.header a{
+    color: black;
+}
+
+
+
+
+
+/*  --------------------------------------------------------------------------*/
+.content{
+  margin:25px;
+
+}
+.content-left{
+  float: left;
+  width: 75%;
+  margin-right: 30px;
+}
+
+.content-left-item{
+  background-color: white;
+  border: 1px solid  #e1e4e8;
+  border-radius: 8px;
+  height: 400px;
+  margin-bottom:20px;
+  padding: 30px 45px;
+  position: relative;
+  color: #6a6a6a;
+}
+.item-content{
+  font-size: 15px;
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+}
+button{
+
+  width: 85px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color:#3b3b3b;
+  color: white;
+}
+.content-left-item button{
+  position:absolute;
+  bottom: 30px;
+}
+button:active{
+  background-color:#131313;
+}
+.content-left-item .mark{
+  text-align: center;
+  width: 100px;
+  height: 80px;
+  background-color: green;
+  border-radius: 2px 2px 0 0;
+  position: absolute;
+  right: 30px;
+  top:0;
+}
+.item1 .mark{
+  background-color:orange;
+
+}
+.content-left-item .mark p{
+  font-size: 15px;
+  color: white;
+  margin: 12px 0 ;
+}
+
+.content-left-item .mark div{
+  position:absolute;
+  bottom: 0;
+  border-width:0 50px 27px ;
+  border-style:solid;
+  border-color:transparent transparent white;
+}
+.content-left-item .conf{
+  margin:10px 0;
+}
+.content-left-item .conf span{
+  font-size: 13px;
+  vertical-align:middle;
+  color: #8a8a8a;
+}
+.content-left-item .conf img{
+  width: 17px;
+  height:17px;
+  vertical-align:middle;
+}
+
+.content-right{
+  overflow: hidden;
+  background-color: white;
+  border-radius: 8px;
+}
+.content-right-item{
+  /* width: 100%; */
+  padding: 20px 25px 50px 25px ;
+  border-bottom: 1px solid #e6e6e6;
+}
+.content-right .inputer{
+  height: 30px;
+  text-align: center;
+  margin-top: 15px;
+}
+.content-right .recent{
+  font-size: 13px;
+  color: #8a8a8a;
+}
+.content-right .title{
+  font-size: 17px;
+  margin-bottom: 8px;
+  padding: 0;
+  color: #6a6a6a;
+  vertical-align:middle;
+}
+.content-right  .title img{
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+.content-right .recent li{
+  padding:3px 20px;
+}
+.content-right .inputer input{
+  height: 26px;
+  width: 80%;
+  vertical-align: middle;
+  background-color: #e6e6e6;
+  border-radius: 8px 0 0 8px  ;
+}
+.content-right .inputer img{
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  vertical-align: middle;
+  border-radius:  0 8px 8px 0  ;
+}
+.content-right .login{
+}
+.content-right .login .avatar{
+  width: 80px;
+  height: 80px;
+  margin: 10px 0;
+
+}
+.content-right .login .buttoner{
+  text-align: center;
+}
+.content-right .login button{
+   width: 70px;
+     margin: 12px;
+}
+#content_left{
+  background-color: yellow;
+  width:25%;
+  display:inline-block;
+}
+#content_left .menu{
+  width:100%;
+  height:100px;
+  border: 1px solid gray;
+}
+#content_left a{
+  color:gray;
+}
+#content_right{
+  background-color: gray;
+  display:inline-block;
+  width:75%;
+}
+#content_right  .menu{
+  width:100%;
+  height:100px;
+  border: 1px solid gray;
+}
+
+#hidden_tree{
+  position:absolute;
+  left:0px;
+  top:0px;
+  padding:2%;
+  width:8%;
+  height:100%;
+  background-color: white;
+  text-align: center;
+  /* visibility: visible; */
+  display:none; /*隐藏侧边栏*/
+}
+
+#hidden_tree img{
+ width:87px;
+ height:87px;
+ border-radius:50%; //圆角
+}
+#hidden_tree .box{
+  padding:10px;
+  height:20px;
+  display:block;
+  text-align:justify;
+}
+#hidden_tree a{
+  color:black;
+}
+#hidden_tree button{
+  position:absolute;
+  right: 2px;
+  top:2px;
+  width:25px;
+  height:25px;
+  border-radius:20%; /*圆角 */
+  outline: none;    /*消除默认点击蓝色边框效果*/
+}
+
+
+.test{
+  width:100px;
+  height: 300px;
+  background-color: gray;
+  /* position:fixed;
+  top:10px;
+  right:10px; */
+
+}
+
+.test1{
+  width:200px;
+  height: 30px;
+  background-color: red;
+  position:absolute;
+  top:10px;
+  right:0;
+}
